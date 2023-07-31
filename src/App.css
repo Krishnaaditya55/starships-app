@@ -1,38 +1,34 @@
-.App {
-  text-align: center;
+body {
+  background-image: url(".././public/maria-ten-b7Hr2YK-FuI-unsplash.jpg"); /* Replace with your background image */
+  background-repeat: repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app-container {
+  background-color: rgba(255, 255, 255, 0.9); /* Add opacity to the entire app */
+  padding: 20px; /* Add some padding to the app container */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+.card {
+  background-color: rgba(255, 255, 255, 0.9); /* Add opacity to the card */
+  border: red;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.card-text {
+  color: #000;
+  margin-top: auto; /* Push the text to the bottom of the card body */
+}
+.myheader {
+  color: white; /* Set white text color for h1 (header) */
+  text-align: center; /* Center align the header */
+  margin-top: 10px; /* Add some top margin to the header */
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.loading-text {
+  color: white; /* Set white text color for the loading text */
+  text-align: center; /* Center align the loading text */
+  margin-top: 20px; /* Add some top margin to the loading text */
 }

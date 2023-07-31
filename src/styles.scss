@@ -1,0 +1,74 @@
+@import "~bootstrap/scss/bootstrap";
+
+.card {
+  background-color: rgba(10, 10, 10, 0.9); /* Add opacity to the card */
+  border: 2px solid rgb(246, 236, 45);
+}
+
+.card-text {
+  color: #ffffff;
+  margin-top: auto;
+}
+.card-title {
+  color: #ffffff;
+}
+h1 {
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.loading-text {
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+.custom-button {
+  background-color: black;
+  color: gold;
+  border: 1px solid gold;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+}
+.custom-button:hover {
+  background-color: gold;
+  color: black;
+  border: 1px solid gold;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+}
+.custom-button:active {
+  background-color: gold;
+  color: black;
+  border: 1px solid gold;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+}
+.custom-alert.custom-success {
+  background-color: black; /* Black background color */
+  color: gray; /* Gray text color */
+  padding: 10px; /* Add padding to the custom-alert */
+  border-radius: 5px; /* Add some border radius to the custom-alert */
+  border: 1px solid gold; /* Remove border */
+}
+
+.custom-alert.custom-success svg {
+  color: gold; /* Set the color of the icon (if using font-awesome icons) */
+}
+
+.custom-alert.custom-success strong {
+  color: gold;
+}
+
+.custom-alert.custom-success .close {
+  color: gray;
+  opacity: 1;
+}
+
+.custom-alert.custom-success .close:hover {
+  color: gold;
+  border: 1px solid gold;
+}
